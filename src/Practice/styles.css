@@ -1,0 +1,13 @@
+.list-continer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 10px;
+  }
+  .list-continer>div{
+    border: 1px solid;
+    padding: 20px;
+    text-align: center;
+  }
+  .App1{
+    margin: 4px;
+  }
