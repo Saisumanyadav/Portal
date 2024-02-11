@@ -1,0 +1,29 @@
+.content {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 0 24px 0;
+//   background-image: url("../../assets/CompanyLogo.svg");
+//   background-repeat: no-repeat;
+  background-position: 50% 50%;
+//   background-size: 35%;//
+//   height: 50vh;//
+  background-origin: content-box;
+  background-size: contain;
+  p {
+    font-family: cursive;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #fff, rgb(86, 201, 230));
+    background-clip: text;
+    color: transparent;
+  }
+  p:nth-child(1) {
+    font-size: 36px;
+    font-weight: 600;
+  }
+}
